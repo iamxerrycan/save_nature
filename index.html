@@ -1,6 +1,4 @@
-
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,6 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./Style/styles.css" />
+    <script src="index.js"></script>
     <title>welcome to dark</title>
   </head>
   <body>
@@ -32,16 +31,22 @@
           <h1>They are coming</h1>
           <h2>Be Prepared</h2>
           <p>Vote now to join the community.</p>
-          <button class="hero__container--btn" id="voteme"><a href="#">VOTE</a></button>
+          <button class="hero__container--btn" id="voteme">VOTE</button>
         </div>
         <div class="hero__container--right">
-        
-          <img style="height: 400px; width:300px"
+          <img
+            style="height: 400px; width: 300px"
             src="./Img/iamhere.webp"
             alt="poluted environment"
             class="hero__container--img"
           />
         </div>
+      </div>
+    </div>
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <p>Thank you for voting!</p>
+        <button id="closePopup">Close</button>
       </div>
     </div>
   </body>
